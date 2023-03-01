@@ -16,15 +16,16 @@ body{
     background: var(--bgcolor);
 }
 .profile{
-    
+    box-sizing: 30px;
+    clip-path: circle();
 }
 .clearfix{
     clear: both;
 }
 .resume-box{
-    width: 800px;
-    height: 100px;
-    margin: 100px auto;
+    width:auto;
+    height: 800px;
+    margin: flex auto;
     background: var(--white);
     box-shadow: 5px 21px 20px 20px #3d3f4238;
 }
