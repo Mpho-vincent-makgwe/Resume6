@@ -1,0 +1,30 @@
+:root{
+    --bgcolor:#beb8ac;
+    --blue:#2fb7fe;
+    --black:#3D3F42;
+    --white:#f4f7ff;
+    --gray:#d8dce4;
+    --lightgray:#8e9095;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background: var(--bgcolor);
+}
+.profile{
+    
+}
+.clearfix{
+    clear: both;
+}
+.resume-box{
+    width: 800px;
+    height: 100px;
+    margin: 100px auto;
+    background: var(--white);
+    box-shadow: 5px 21px 20px 20px #3d3f4238;
+}
