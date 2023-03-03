@@ -12,13 +12,11 @@ body{
     max-height: max-content;
 }
 
-.container {
-    display: flex;
-}
 
 *{
     font-size: medium;
     font-family: monospace;
+    position:static !important;
 }
 .resume-box{
     position:relative;
@@ -48,15 +46,16 @@ body{
 }
 
 .head{
+    text-align: center;
     background-color: rgb(135, 132, 137);
     float: initial;
-    border-block: dashed 5px gray;
+    border-top-style: double;
     position: inherit;
     border-radius: 5px;
 }
 
 .profile-picture{
-    clip-path: circle(50px at 50px);
+    clip-path: circle();
     margin: auto;
 }
     
